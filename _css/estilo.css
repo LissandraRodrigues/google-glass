@@ -1,0 +1,355 @@
+/*
+
+Autora: Luiza Lissandra R. Rosa
+Data: 17/08/2020
+
+*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: "FonteLogo";
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
+    font-family: Arial, sans-serif;
+
+}
+
+div#interface {
+
+    background-color: white;
+    width: 900px;
+    margin: -20px auto 0px auto; /* Em cima, direita, embaixo e esquerda */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Deslocamento vertical, D. lateral, espalhamento da sombra e cor */
+    border-radius: 8px;
+    padding: 20px; /* Se você quiser colocar um valor nos 4 lados é só colocar uma vez. */
+
+}
+
+header#cabecalho {
+
+    border-bottom: 1px #606060 solid; /* Largura da borda, cor, formato */
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px; /* url, repetição, deslocamento horizontal, deslocamento vertical */
+
+}
+
+header#cabecalho img#icone {
+
+    position: absolute;
+    left: 780px;
+    top: 70px;
+
+}
+
+header#cabecalho h1 {
+
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    margin-bottom: 0px;
+
+}
+
+header#cabecalho h2 {
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+
+}
+
+p {
+
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #606060;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Formatação de imagem. */
+
+figure.foto-legenda {
+
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+
+}
+
+figure.foto-legenda img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+figure.foto-legenda figcaption {
+
+    /* O figcaption está inserido no espaço do figure. */
+
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Cria um box dentro da borda. */
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+figure.foto-legenda figcaption:hover {
+
+    opacity: 1;
+
+}
+
+/* Formatação do menu de navegação. */
+
+nav#menu {
+
+    display: block;
+
+}
+
+nav#menu ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+
+}
+
+nav#menu h1 {
+
+    display: none;
+
+}
+
+nav#menu li {
+
+    display: inline-block; /* Faz com que os elementos sejam organizados em uma mesma linha. */
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 8px;
+    transition: background-color 1s; /* Faz com que a transição de background-color demore 1 min. */
+
+}
+
+nav#menu li:hover {
+
+    opacity: 0.7;
+
+    /* Sugerido:
+
+        background-color: #606060;
+
+    */
+}
+
+nav#menu li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Formatação da seção. */
+
+section#corpo {
+
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid black; /* Responsável por fazer a linha divisória. Grossura, tipo e cor. */
+    padding-right: 15px;
+
+}
+
+/* Formatação do artigo. */
+
+article#noticia-principal h2 {
+
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+/* Formatação do cabeçalho do artigo. */
+
+header#cabecalho-artigo h1 {
+
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+header#cabecalho-artigo h2 {
+
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+
+}
+
+header#cabecalho-artigo h3 {
+
+    font-size: 12px;
+    color: #606060;
+
+}
+
+.textDireita {
+
+    text-align: right;
+
+}
+
+/* Formatação da tabela. */
+
+table#tabelaEspecificacoes {
+
+    border: 1px solid #606060;
+    border-spacing: 0px; /* Faz com que o espaço entre as células seja igual a zero. */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table#tabelaEspecificacoes td {
+
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle; /* Middle -> é o meio */
+
+}
+
+table#tabelaEspecificacoes td.colEsquerda {
+
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+table#tabelaEspecificacoes td.colDireita {
+
+    background-color: #cecece;
+    text-align: left;
+
+}
+
+table#tabelaEspecificacoes caption {
+
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+
+}
+
+table#tabelaEspecificacoes caption span {
+
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+
+}
+
+/* Formatação do artigo lateral. */
+
+aside#lateral {
+
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+aside#lateral h1 {
+
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 13pt;
+    color: #606060;
+
+}
+
+aside#lateral h2 {
+
+    background-color: #606060;
+    color: #ffffff;
+    font-size: 13pt;
+    padding: 5px;
+
+
+}
+
+/* Formatação do rodapé. */
+
+footer#rodape {
+
+    clear: both; /* Faz com que o rodapé não esteja inserido na configuração do section e aside. */
+    border-top: 1px solid black;
+
+}
+
+footer#rodape p {
+
+    text-align: center;
+    text-indent: 0px;
+
+}
+
+video.video-01 {
+
+    width: 500px;
+
+
+}
+
+video.video-02 {
+
+    width: 350px;
+
+}

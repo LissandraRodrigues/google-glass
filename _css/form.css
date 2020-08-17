@@ -1,0 +1,122 @@
+/*
+
+Autora: Luiza Lissandra R. Rosa
+Data: 17/08/2020
+
+*/
+
+@charset "UTF-8";
+
+form {
+
+    width: 500px;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #f5f5f5;
+    padding: 50px;
+
+}
+
+input {
+
+    width: 200px;
+
+}
+
+input#grau_id {
+
+    width: 150px;
+
+}
+
+input#pedido_id,
+input#fem_id,
+input#masc_id {
+
+    width: 50px;
+
+}
+
+input,
+textarea {
+
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+input:hover,
+textarea:hover {
+
+    background-color: #dddddd;
+
+}
+
+legend {
+
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+
+}
+
+fieldset {
+
+    border-color: #cecece;
+    margin: 20px;
+
+}
+
+fieldset#genero {
+
+    width: 350px;
+
+}
+
+fieldset#usuario {
+
+    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+    opacity: 0.7;
+
+}
+
+fieldset#endereco {
+
+    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+    opacity: 0.7;
+
+}
+
+fieldset#mensagem {
+
+    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+    opacity: 0.7;
+
+}
+
+fieldset#pedido {
+
+    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+    opacity: 0.7;
+
+}
+
+#btn-enviar {
+
+    padding: 10px 50px 10px 50px;
+    margin: 5px auto 5px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p#caixa_texto {
+
+    margin-inline-start: -2px;
+
+}

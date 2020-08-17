@@ -1,0 +1,38 @@
+/*
+
+Autora: Luiza Lissandra R. Rosa
+Data: 17/08/2020
+
+*/
+
+@charset "UTF-8";
+
+div#tv-radio {
+
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png") no-repeat;
+
+}
+
+audio#musica {
+
+    display: block;
+    position: relative;
+    left: 598px;
+    top: 491px;
+    width: 250px;
+    height: 48px;
+
+}
+
+video#filme {
+
+    display: block;
+    position: relative;
+    left: 90px;
+    top: 85px;
+    width: 440px;
+
+}
