@@ -6,7 +6,7 @@ Este site tem como intuito apresentar o Google Glass, um óculos inteligente com
 
 Para ver o vídeo de demonstração da aplicação, clique na imagem abaixo:
 
-[![Watch the video](https://github.com/LissandraRodrigues/google-glass/blob/master/capa.png )](https://www.youtube.com/watch?v=86rktWwT4rs&feature=youtu.be)
+[![Watch the video](https://github.com/LissandraRodrigues/google-glass/blob/master/Exemplo.png )](https://www.youtube.com/watch?v=86rktWwT4rs&feature=youtu.be)
 
 ## Como foi feito
 
