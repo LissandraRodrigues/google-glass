@@ -6,13 +6,14 @@ Este site tem como intuito apresentar o Google Glass, um óculos inteligente com
 
 Para ver o vídeo de demonstração da aplicação, clique na imagem abaixo:
 
-[![Video da aplicação](LINK_IMAGEM)](https://www.youtube.com/watch?v=86rktWwT4rs&feature=youtu.be)
+[![Watch the video](https://github.com/LissandraRodrigues/google-glass/blob/master/capa.png )](https://www.youtube.com/watch?v=86rktWwT4rs&feature=youtu.be)
 
 ## Como foi feito
 
 Este site foi feito por meio do curso de HTML5 do professor <a href = "https://www.cursoemvideo.com/"> Gustavo Guanabara<a/> feito em 2013. 
 
-[!Curso em Vídeo, Gustavo Guanabara](LINK_IMAGEM?raw=true)
+![alt text](https://github.com/LissandraRodrigues/google-glass/blob/master/curso_em_video.png?raw=true)
+
 
 ## Como utilizar
 
